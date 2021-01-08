@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container {
+	position: relative;
+	color: white;
+}
+.round-image {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.image {
+	width: 650px;
+	height: 550px;
+}
+.pink {
+	width: 49%;
+	height: 830px;
+	display: inline-block;
+	background-color: #980147;
+	margin: 0;
+}
+.hot-pink {
+	width: 50%;
+	position: relative;
+	display: inline-block;
+	background-color: #c3015c;
+	height: 830px;
+	margin: 0;
+}
+header {
+	left: 43%;
+	position: absolute;
+	top: 5%;
+	z-index: 1;
+}
+footer {
+	left: 38%;
+	position: absolute;
+	bottom: 5%;
+	display: flex;
+	align-items: center;
+}
+.section {
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+.img-container {
+	position: absolute;
+	left: 30%;
+	top: 15%;
+	z-index: 1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	-o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.icons {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	right: 5%;
+	top: 40%;
+}
+a {
+	cursor: pointer;
+}
+footer a {
+	margin: 0 15px;
+	text-decoration: none;
+	color: white;
+}
